@@ -1,0 +1,251 @@
+body{
+padding:40px;
+margin:10px; 
+background:#363435; 
+color:#ebd5d7; 
+font: Tahoma, sans-serif; 
+}
+#toggle {
+  display: block;
+  width: 28px;
+  height: 30px;
+  margin: 30px auto 10px;
+}
+
+#toggle span:after,
+#toggle span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -9px;
+}
+#toggle span:after{
+  top: 9px;
+}
+#toggle span {
+  position: relative;
+  display: block;
+}
+
+#toggle span,
+#toggle span:after,
+#toggle span:before {
+  width: 100%;
+  height: 5px;
+  background-color: #888;
+  transition: all 0.3s;
+  backface-visibility: hidden;
+  border-radius: 2px;
+}
+
+/* on activation */
+#toggle.on span {
+  background-color: transparent;
+}
+#toggle.on span:before {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+#toggle.on span:after {
+  transform: rotate(-45deg) translate(7px, -8px);
+}
+#toggle.on + #menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* menu appearance*/
+#menu {
+  position: relative;
+  color: #999;
+  width: 200px;
+  padding: 10px;
+  margin: auto;
+  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+  text-align: center;
+  border-radius: 4px;
+  background: white;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.05);
+  /* just for this demo */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .4s;
+}
+#menu:after {
+  position: absolute;
+  top: -15px;
+  left: 95px;
+  content: "";
+  display: block;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 20px solid white;
+}
+#menu  ul,#menu li,#menu li a {
+  list-style: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+#menu li a {
+  padding: 5px;
+  color: #888;
+  text-decoration: none;
+  transition: all .2s;
+}
+#menu li a:hover,
+ li a:focus {
+  background: rgb(183, 26, 188);
+  color: #fff;
+}
+
+figure {
+  border: solid;
+  display: inline-block;
+    height: 15%;
+    text-align: center;
+    width: 15%;
+    vertical-align: middle;
+    margin: 100px;
+    }
+figure>img{
+  width: 70%;
+  
+}
+h1{
+  text-align: center;
+  font-size: 45px;
+  font-family: Georgia, serif;
+  color: gold;
+}
+[href]{
+  color:#ebd5d7;
+}
+h2{
+  margin: 35px;
+  color: mediumvioletred;
+  font-size: 35px;
+}
+figure:nth-of-type(n):hover{
+  transform: scale(2) rotate(360deg);
+  transition: transform 2s,background 3s;
+  background-color: coral;
+  /*animation: myanimation 2s infinite;*/
+  
+}
+ol{
+  margin-left: 35px;
+  font-size: 30px;
+ 
+}
+/*@keyframes myanimation{
+  0% {background-color:red; width:30%;}
+  50%{background-color: rgba(221, 103, 103, 0.856)}
+  100% {background-color:rgba(139, 56, 74, 0.411); width:50%;}
+}*/
+header {
+  padding: 35px;
+  border:  solid;
+ background-image: url(https://www.brasty.ro/k1.cms/media/images/magazin/65528-185186-w960.jpg);
+ background-size: 100%;
+ 
+ 
+}
+
+
+.navbar {
+  display: flex;
+  background-color: #333;
+  flex-direction: row;
+  flex-wrap: wrap; 
+}
+
+
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+.navbar a:hover {
+  background-color: rgb(231, 167, 48);
+  color: black;
+}
+@media screen and (max-width: 600px){
+  .navbar a{
+    width: 30%;
+  }
+  
+  .navbar a{
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}
+/*.dropbtn {
+  
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  background-color: #333;
+  flex-direction: row;
+  flex-wrap: wrap; 
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #a33588;
+}*/
+
+ footer{
+    font-size: 12px;text-align: center; color: #888; 
+  }
+.pir{
+  
+  position: fixed;
+  width: 15%;
+  
+  right: 10px;
+  top:10px;
+}
+ .closebtn {
+   position: fixed;
+   left: 10px;
+   top:10px;
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.closebtn:hover {
+  color: rgb(216, 186, 186);
+}

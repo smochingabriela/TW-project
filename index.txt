@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Parfumuri</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <a href="#menu" id="toggle"><span></span></a>
+
+<div id="menu">
+  <ul>
+    <li><a href="https://AlinaGabrielaSmochin.smochingabriela.repl.co">Acasa</a></li>
+    <li><a href="https://parfumurifemei.smochingabriela.repl.co">Femei</a></li>
+    <li><a href="https://parfumuribarbati.smochingabriela.repl.co">Barbati</a></li>
+  </ul>
+</div>
+
+
+	<header>
+    
+
+		<h1> Lumea parfumurilor </h1>
+
+		<img class="femei"
+      src="https://www.adevarulonline.ro/wp-content/uploads/2020/02/parfumuri-femei-750x375.jpg" alt="Femei" id="Femei">
+     
+      <img class="barbati"
+      src="https://www.elle.ro/wp-content/uploads/2017/11/parfumuri1-1280x720.jpg" alt="Barbati" id="Barbati">
+      
+      </header>
+ 
+
+  
+      <div>
+          <h3 class="exfemei">Parfumul meu preferat de femei este: <input type="radio" id="b1"/></h3>
+          
+          <h3 class="exbarbati">Parfumul meu preferat de barbati este: <input type="radio" id="b2"/></h3>
+
+      </div>
+
+      <nav>
+        <ul>
+          
+          <li>Compozitie</li>
+          <li>Clasificare</li>
+          <li>Exemple</li>
+          </ul>
+      </nav>
+      
+      <article>
+          <h2><u>Concentratie si compozitie</u></h2>
+          <p>Proporția de uleiuri aromatice (ca procent în volume) dintr-un parfum determină tipul acestuia:</p>
+          <ul>
+            <li>Extras de parfum: <span style="color:blue;font-weight:bold">20%-40%</span> compuși aromatici</li>
+            <li>Apă de parfum (Eau de parfum) 'EdP': <span style="color:blue;font-weight:bold">10%-30%</span> compuși aromatici</li>
+            <li>Apă de toaletă (Eau de toilette) 'EdT': <span style="color:blue;font-weight:bold">5%-20%</span>compuși aromatici</li>
+            <li>Apă de colonie (Eau de Cologne) 'EdC': <span style="color:blue;font-weight:bold">2%-3%</span> compuși aromatici. Marcă înregistrată: 'Original Eau de Cologne'</li>
+          </ul>
+          <p>Detalii pe pagina: <a href="https://ro.wikipedia.org/wiki/Parfum">Wikipedia</a></p>
+</article>
+          <section>
+          <h2><u>Persistenta fiecarui tip</u></h2>
+          <table class="persis">
+              <tr>
+                <th>Tip</th>
+                <th>Durata</th>
+              </tr>
+              <tr>
+                <td>Apa de colonie</td>
+                <td>2-3 ore</td>
+              </tr>
+              <tr>
+                <td>Apa de toaleta</td>
+                <td>3-4 ore</td>
+              </tr>
+              <tr>
+                <td>Apa de parfum</td>
+                <td>4-5 ore</td>
+              </tr>
+              <tr>
+                <td>Parfum</td>
+                <td>5-7 ore</td>
+              </tr>
+          </tabel>
+  
+          </table>
+           </section>
+
+
+        </section>
+
+        <section>
+          <h2><u>Clasificarea de baza</u></h2>
+          <p>Parfumurile sunt, în general, împărțite în <b>5 tipuri principale - <u>florale, orientale, citrice, lemnoase și chypre</u></b>.</p>
+        </section>
+          
+          <section>
+          <img id="floral" src="https://www.brasty.ro/k1.cms/media/images/magazin/65560-185218-w667.jpg"  >
+          <h2>Floral</h2>
+          <p>Probabil cel mai mare și mai popular tip. După cum sugerează și numele, la baza acestor parfumuri sunt florile de toate felurile. Cel mai des utilizate sunt trandafirul, iasomia, crinul, ylang-ylangul exotic, tuberoza și violeta.</p>
+
+          <p><u>Parfumurile florale</u> clasice evocă feminitate, suflet romantic și personalitate prietenoasă. Apropo, se spune că bărbaților le plac astfel de parfumuri, așa că dacă doriți să atrageți atenția bărbaților, alegerea este clară.</p>
+        
+          </section>
+         
+          <section  class="clear">
+            <img id="oriental"
+            src="https://www.brasty.ro/k1.cms/media/images/magazin/65569-185227-w667.jpg">
+            <h2>Oriental</h2>
+            <p>Al doilea cel mai iubit tip de parfum are o tradiție și o istorie bogate. Se folosesc tonuri de condimente - cuișoare, scorțișoară, vanilie, ambergris, pulbere, dar și ciocolată sau cafea. Acestea atrag prin aromele lor exotice, seducătoare și misterioase pe care le veți găsi în fiecare sticluță cu un astfel de parfum. Sunt disponibile atât pentru femei, cât și pentru bărbați, dar și în variante unisex.</p> 
+
+            <p><u>Parfumurile orientale</u> sunt în mare parte foarte puternice și, prin urmare, sunt potrivite în special pentru sezonul rece sau pentru <b>ocaziile de seară</b>.</p>
+          </section>
+          
+          <section class="clear">
+            <img id="citrice"
+            src="https://www.brasty.ro/k1.cms/media/images/magazin/65551-185209-w750.jpg">
+            <h2>Citrice</h2>
+            <p>După cum sugerează și numele, aceste parfumuri sunt foarte proaspete, ușoare și potrivite pentru purtare zilnică. Desigur, cele mai populare ingrediente sunt lămâia, lime-ul, portocala, mandarina sau bergamota. Parfumurile citrice sunt adesea combinate cu tonuri florale sau lemnoase. De cele mai multe ori sunt unisex.</p>
+
+            <p>Dacă sunteți în căutarea unui <b>parfum pentru vară</b>, citricele vor fi alegerea potrivită. Aroma lor vă va oferi energie și o senzație răcoritoare plăcută în zilele călduroase.</p>
+          </section>
+
+          <section class="clear">
+            <img id="lemnoase"
+            src="https://www.brasty.ro/k1.cms/media/images/magazin/65514-185172-w524.jpg">
+            <h2>Lemnoase</h2>
+            <p>Bazate pe diferite tipuri de lemn. Cel mai des utilizat este lemnul de santal, cedrul sau abanosul. Recent a apărut și lemnul de agar sau oud(h). Putem găsi rășină, condimente sau flori. Aveți grijă să nu le combinați cu vanilie sau cu flori puternice - aceste elemente nu se potrivesc cu tonurile lemnoase.</p>
+
+            <p><u>Parfumurile cu tonuri lemnoase</u> sunt foarte potrivite pentru <b>zilele de toamnă și iarnă</b> și pot fi purtate în timpul zilei.</p>
+
+            <h2>Chypre</h2>
+            <p>Chypre poartă numele unui parfum Coty, creat de un parfumer francez a cărui inspirația s-a născut într-o vacanță în Cipru. Baza este mușchiul de stejar, bergamota și patchouli. Adesea sunt combinate cu tonuri fructate sau florale.</p> 
+          </section>
+<br>
+<br>
+<br>
+<br>
+<section id="galerie">
+          <figure>
+            <img src="https://www.brasty.ro/k1.cms/media/images/magazin/65542-185200-w1000.jpg" alt="img">
+          </figure>
+          <figure>
+            <img src="https://www.academiabarbatilor.ro/wp-content/uploads/2019/06/main-15.jpg" alt="img">
+          </figure>
+</section>
+
+
+        <form id="testform" method="get" action="http://localhost:3100/" target="_blank">
+            
+          
+            <input id="mr" name="salutation" type="radio" value="Mr."/>
+            <label class="inline" for="salutation-mr">Mr.</label>
+            
+            <input id="mrs" name="salutation" type="radio" value="Mrs."/>
+            <label class="inline" for="salutation-mrs">Mrs.</label>
+            
+            <input id="ms" name="salutation" type="radio" value="Ms."/>
+            <label class="inline" for="salutation-ms">Ms.</label>
+          
+            <br> 
+            <br> 
+            <label for="Name">Nume</label>
+            <input type="text" name="Name"> 
+            <br> 
+            <br>  
+            <label for="EMail">Email</label>
+            <input type="text" name="EMail"> 
+            <br> 
+            <br> 
+           
+              <label for="Review">Scrie un mesaj:</label>
+              <textarea id="Review" name="Review" rows="6" cols="65"></textarea>
+            
+            <br> 
+            <br>  
+            
+            <input type="submit" name="submit"
+                   value="Submit"> 
+        </form> 
+  
+    
+ 
+<button onclick="topFunction()" id="top" title="Go to top">Top</button>
+
+      <aside>
+        <h3>Pentru a comanda puteti folosi unul din site-urile de mai jos:
+        <p><a href="https://www.notino.ro/parfumuri/">Notino</a>
+        <a href="https://www.elefant.ro/hp-parfumuri-cms-hp-parfumuri">Elefant</a></p></h3>
+      </aside>
+      <footer>
+        <p>Aceasta pagina a fost realizata de <b>Smochin Gabriela-Alina</b> </p>
+      </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
